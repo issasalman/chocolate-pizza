@@ -2,8 +2,6 @@
 #x1{
 position: relative;
 
-right: ;
-top:  ;
 
 
 
@@ -112,7 +110,11 @@ bottom: 75px;
 
 .small {
 display: inline;
+
 padding-left: 700px;
+
+padding-left: 680px;
+
 
 
 
