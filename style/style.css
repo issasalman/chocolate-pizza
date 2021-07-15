@@ -17,9 +17,21 @@ top:  ;
 #logo{
 
 display: inline;
-
+margin: 0;
+float: left;
 }
 h4{
+    float: left;
     font-family: Cookie;
 
+}
+
+#hrc{
+
+    width: 100%;
+    height: 15px;
+}
+.ht{
+
+    display: flex ;
 }
