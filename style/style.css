@@ -1,42 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-#x1{
-position: relative;
 
 
 
-
-
-}
-.x3{
-
-    float:right;
- padding-left: 1100px;
- padding-top: 10px;
-
-}
 #logo{
 
+    vertical-align: top;
+   
+}
+
+
+
+
+#c1 h4{
+   
+background-color: red;
 display: inline;
-height:30px;
-padding-top: 20px;
-padding-right: 10px;
+width: 50px;
+margin-right: 1050px;
 
+    
 }
-#c1 {
-    display: flex;
-}
-h4{
-    font-family: Cookie;
-    font-size: 18px;
-    /* width: 10px; */
 
+
+#fg{
+display: block;
+width: 100%;
+height: 20px;
+//o
 }
-#best {
-  position: relative;
-  /* top:-30px; */
-  /* right: -50px; */
-  font-size: 6px;
-  color: gray;
+
+
+#c1{
+
+    
+}
+
+
+#c1{
+
+    
+}
+
+
+
+
 }
  #pr {
      float: right;
