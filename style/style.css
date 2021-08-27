@@ -1,145 +1,222 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
-
-
-#logo{
-
-    vertical-align: top;
-   
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Josefin+Sans|Pacifico|Ubuntu|Yellowtail&display=swap&subset=latin-ext');
+body{
+    margin: auto;
+    width: 80%;
 }
-
-
-
-
-#c1 h4{
-   
-background-color: red;
-display: inline;
-width: 50px;
-margin-right: 1050px;
-
-    
+header{
+    padding: 2% 0;
+    position: relative;
+    width: 100%;
+    margin: auto;
 }
-
-
-#fg{
-display: block;
-width: 100%;
-height: 20px;
+#borderheader{
+    background-image: url('../img/hr-img.png');
+    height: 15px;
+    width: 100%;
+   position: relative;
+   bottom: 30px;
 
 }
-
-
-#c1{
-
-    
-}
-
-
-#c1{
-
-    
-}
-
-
-
+#borderheader2{
+    background-image: url('../img/hr-img.png');
+    height: 15px;
+    width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;;
 
 }
- #pr {
-     float: right;
-     margin-bottom: 15px;
-     display: flex;
-
-  
- }
- #pr img {
-     height:15px;
-     width: 15px;
-     padding-top: 10px;
- }
-h5 {
-    font-size: 10px;
+.sameline{
+    display: inline-block;
+}
+#pHeader{
+    font-size: x-small;
+    width: 141%;
+    font-family: 'Josefin Sans';
+    position: relative;
+    bottom :80px;
+    left:50px
+}
+h3{
+    font-size: 36px;
+    font-family: 'Yellowtail';
+    font-weight: bold;
+    position: relative;
+    bottom :45px;
 
 }
-
-#p1 {
-    font-size: 10px;
-    color: gray;
-    padding-top: -20px;
-}
-
-
-h2 {
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-
-
-#pizza {
+main{
     width: 100%;
 }
-body {
-    margin-left: 50px;
-    margin-right: 50px;
+#logomiddle{
+    float: right;
 }
 
-article p {
-    text-align: left;
+#logo{
+    float: left;
+    margin: 0 5% 0 0;
    
 }
 
-article p {
-    text-indent:2em;
+#text{
+
+   position: relative;
+   right:50px
 }
-#list {
-    background-image: url(../img/list-bg.png);
-
-
-
-}
-
-#lright {
-
+.imagehead{
     float: right;
-  
 }
-#lleft {
+#logoright{
+    position: absolute;
+    right: 0px;
+}
+#logomiddle{
+    position: absolute;
+    right: 6%;
+}
+#article{
+    width: 100%;
+    position: relative;
+}
+#article h1{
+color: #000000;
+font-size: 30px;
+font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-bottom: 1px;
+}
+#article h2{
+    font-size: 15px;
+    
+    position: absolute;
+    color:gray
+
+}
+
+#rightimg{
+float: right;
+right: 1%;
+
+}
+
+#mainPic{
+margin: 4% auto;
+width: 100%;
+}
+#printPic{
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    right: 5%;
+    margin-right: 0.5%;
+    margin-top: 12px;
+}
+#article pre{
+font-size: 20px; 
+margin-top: 15px;
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: 'Times New Roman', Times, serif;
+font-style: normal;
+
+}
+
+#back{
+    margin-top: 10px;
+    background-image: url(../img/list-bg.png);
+    height: 350px;
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secound{
+   margin: 50px;
+}
+.first{
+    margin:40px 100px 40px 60px ;
+    position: absolute;
+    left: 1%;
+}
+
+.secound{
+    margin:40px 40px 40px 60px ;
+    right: 14%;
+    position: absolute;
+}
+
+.sameline{
+    display: inline-block;
+    height: auto
+}
+
+#back p{
+padding: 5.5px;
+font-style: 'Ubuntu';
+
+}
+
+#back input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+  }
+
+  .footerParagraph {
+    font-size: 13px;
+    margin: auto;
+    margin-bottom: 4%;
+    width: 80%;
+    text-align: center;
+    line-height: 2;
+    margin-top: 1%;
+}
+
+.footerImg {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vanessa {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.vanPic {
+    display: inline;
     float: left;
 }
 
 .button {
-    float: right;
-    background-color:#8D2828;
-    color: white;
-position: relative;
-bottom: 75px;
+    position: absolute;
+    background-color: #B05B3B;
+    height: 50px;
+    right: 0%;
+    top: 0%;
+    width: 170px;
+    color:white;
 }
 
-.small {
-display: inline;
-
-padding-left: 700px;
-
-padding-left: 680px;
-
-
-
-
+h4.vanName {
+    padding-left: 88px;
+    margin-left: 8px;
+    position: relative;
+    bottom: 20px;
 }
 
-
-.copy {
-    text-align: center;
+p.foodism {
+    padding-left: 94px;
+    height: 45px;
+    width: 500px;
+    position: relative;
+    bottom: 30px;;
+}
+footer {
+    margin-top: 50px;
 }
 
-.food {
-    float: left;
-}
-
-#k1 p  {
-  position: relative;
-  bottom: 25px;
-}
-.b {
-    text-decoration: line-through;
+.hr {
+    width: 48%;
+    display: inline-block;
 }
